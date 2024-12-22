@@ -1,0 +1,64 @@
+/* AuctionPage.css */
+
+/* Full-page container with a background image */
+.auction-page {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url("/public/Assets/background-image.jpg") no-repeat center center/cover; /* Replace with your background image */
+    font-family: "Arial", sans-serif;
+    color: #fff;
+  }
+  
+  /* Dark overlay for the background */
+  .overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Central content container */
+  .content {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Logo styling */
+  .logo {
+    width: 80px;
+    margin-bottom: 20px;
+  }
+  
+  /* Heading text */
+  .content h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  
+  /* Button styles */
+  .btn {
+    background: #6b46c1;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .btn:hover {
+    background: #553c9a;
+  }
+  

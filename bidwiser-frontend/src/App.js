@@ -2,6 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home/index";
 import Auction from "./pages/Auction/index";
+import EventForm from "./pages/EventForm/EventFormPage";
 
 const AppContent = () => {
   return (
@@ -9,6 +10,7 @@ const AppContent = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/auction" element={<Auction />} />
+        <Route path="/eventForm" element={<EventForm />} />
       </Routes>
     </>
   );
