@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home/index";
 import Auction from "./pages/Auction/index";
 import PortfolioForm from "./pages/PortfolioForm/PortfolioForm";
+import ItemForm from "./pages/ItemForm/ItemFormPage";
 
 const AppContent = () => {
   return (
@@ -11,7 +12,7 @@ const AppContent = () => {
         <Route path="/" element={<Home />} />
         <Route path="/auction" element={<Auction />} />
         <Route path="/portfolioForm" element={<PortfolioForm />} />
-        <Route path="/eventForm" element={<EventForm />} />
+        <Route path="/itemForm" element={<ItemForm />} />
       </Routes>
     </>
   );

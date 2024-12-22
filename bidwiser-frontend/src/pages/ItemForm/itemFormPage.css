@@ -1,0 +1,38 @@
+/* AuctionPage.css */
+
+/* Full-page container with a background image */
+.auction-page {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url("/public/Assets/background-image.jpg") no-repeat center center/cover; /* Replace with your background image */
+    font-family: "Arial", sans-serif;
+    color: #fff;
+  }
+  
+  /* Dark overlay for the background */
+  .overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+
+  /* Logo styling */
+  .logo {
+    width: 80px;
+    margin-bottom: 20px;
+  }
+  
+ 
+  
+  
+  
+  
+  
+  
