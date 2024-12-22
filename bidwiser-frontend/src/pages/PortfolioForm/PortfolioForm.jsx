@@ -1,5 +1,5 @@
 import React from "react";
-import "./eventFormPage.css";
+import "./portfolioForm.css";
 import "../../index.css";
 
 const EventFormPage = () => {
